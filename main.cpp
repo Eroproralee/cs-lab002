@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 
 using namespace std;
 
@@ -18,5 +18,12 @@ if(a>b)
 else
 {
     cout << "max=" << b ;
+if(a<b)
+{
+    cout << "min=" << a;
+}
+else
+{
+    cout << "min=" << b ;
 }
 }
